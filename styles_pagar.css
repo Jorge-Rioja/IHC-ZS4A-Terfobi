@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+@font-face {
+    font-family: Montserrat_Bold;
+    src: url(Resources/Fuentes/Montserrat-Bold.ttf);
+}
+
+.menu a{
+  font-family: Montserrat_Bold;
+  font-size: 25px;
+  background-color: #515bb8;
+  color: white;
+  text-decoration: none;
+  float: left;
+  width: 16%;
+  height: 100px;
+  text-align: center;
+  padding: 30px;
+}
+.menu a:hover{
+  background-color: #2C315D;
+}
+
+@font-face {
+  font-family: Glacial_Indifference_Regular;
+  src: url(Resources/Fuentes/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: Glacial_Indifference_Bold;
+  src: url(Resources/Fuentes/GlacialIndifference-Bold.otf);
+}
+
+.propietario_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 40px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.tb_propietario_de_la_tarjeta{
+  position: relative;
+  top: 100px;
+  left: 50px;
+  box-sizing: border-box;
+}
+.tb_propietario_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 25px;
+  width: 500px;
+  height: 40px;
+}
+.número_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 40px;
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+.tb_número_de_la_tarjeta{
+  position: relative;
+  top: 200px;
+  left: 50px;
+  box-sizing: border-box;
+}
+.tb_número_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 25px;
+  width: 500px;
+  height: 40px;
+}
+.fecha_de_vencimiento_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 40px;
+  position: relative;
+  bottom: 125px;
+  left: 690px;
+}
+.tb_fecha_de_vencimiento_de_la_tarjeta{
+  position:relative;
+  bottom: 77px;
+  left: 690px;
+  box-sizing: border-box;
+}
+.tb_fecha_de_vencimiento_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 25px;
+  width: 500px;
+  height: 40px;
+}
+.código_de_seguridad_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 40px;
+  position: relative;
+  bottom: 27px;
+  left: 690px;
+}
+.tb_código_de_seguridad_de_la_tarjeta{
+  position:relative;
+  top: 23px;
+  left: 690px;
+  box-sizing: border-box;
+}
+.tb_código_de_seguridad_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 25px;
+  width: 500px;
+  height: 40px;
+}
+.botón_pagar{
+  font-family: Montserrat_Bold;
+  font-size: 40px;
+  color: white;
+  background-color: #515bb8;
+  border: none;
+  position: relative;
+  top:80px;
+  left: 600px;
+}
+.botón_pagar:hover{
+  background-color: #2C315D;
+}
