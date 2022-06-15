@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+}
+header{
+  width: 100%;
+  background: #515bb8;
+
+}
+.menu ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.menu li:hover{
+  background: rgba(0, 0, 0, 0.3);
+}
+.menu li{
+  text-align: center;
+  flex-grow: 1;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.menu li a{
+  display: block;
+  padding: 15px 50px;
+  color: white;
+  text-decoration: none;
+  font: bold 26px 'Monserrat';
+  text-align: center;
+}
+.hero {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: black;
+    text-align: center;
+}
+.hero h1 {
+    font: bold 60px 'Monserrat';
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+p{
+  color: white;
+  margin-left: 170px;
+  margin-right: 170px;
+  background-size: contain;
+  background-color: #bbbbbb;
+  font: bold 24px 'Monserrat';
+}
