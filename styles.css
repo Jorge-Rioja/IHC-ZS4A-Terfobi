@@ -55,3 +55,53 @@ p{
   background-color: #bbbbbb;
   font: bold 24px 'Monserrat';
 }
+
+
+
+
+h2{
+  font: bold 60px 'Monserrat';
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  margin-top: 100px;
+  font-weight: 400;
+}
+.InfoInteg{
+  font: bold 18px 'Monserrat';
+  margin:auto;
+  
+  display:-webkit-inline-flex;
+  
+	
+	
+}
+.InfoInteg .foto{
+  width: 330px;
+  height: 410px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: white;
+}
+.InfoInteg .foto:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.InfoInteg .foto img{
+  width: 350px;
+  height: 290px;
+}
+.InfoInteg .foto p2{
+  font-weight: 700;
+}
+hr {
+  width: 250px;
+  height: 2px;
+  background-color: #515bb8;
+  border: 0;
+  margin-bottom: 60px;
+}
