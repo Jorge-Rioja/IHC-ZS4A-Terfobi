@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -33,13 +34,130 @@
   font-family: Glacial_Indifference_Bold;
   src: url(Resources/Fuentes/GlacialIndifference-Bold.otf);
 }
-body{
+
+/* Estilos para los botones */
+.main{
+  clear: both;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+ 
+}
+.main-box{
+  height: 500px;
+  padding: 250px;
+ 
+}
+.btn-box{
+  display: flex;
+  justify-content: space-around;
+}
+.user-btn{
+  display: block;
+  width: 200px;
+  background: #d3d3d3;
+  padding: 20px;
+  text-align: center;
+  color: #000;
+  font-family: Montserrat_Bold;
+  text-decoration: none;
+}
+.propietario_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 30px;
   position: relative;
-  padding-bottom: 10em;
+  top: 50px;
+  left: 120px;
+}
+
+.tb_propietario_de_la_tarjeta{
+  position: relative;
+  top: 70px;
+  left: 120px;
+  box-sizing: border-box;
+}
+.tb_propietario_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 15px;
+  width: 500px;
+  height: 30px;
+}
+.número_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 30px;
+  position: relative;
+  top: 150px;
+  left: 120px;
+}
+.tb_número_de_la_tarjeta{
+  position: relative;
+  top: 170px;
+  left: 120px;
+  box-sizing: border-box;
+}
+.tb_número_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 15px;
+  width: 500px;
+  height: 30px;
+}
+.fecha_de_vencimiento_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 30px;
+  position: relative;
+  bottom: 85px;
+  left: 730px;
+}
+.tb_fecha_de_vencimiento_de_la_tarjeta{
+  position:relative;
+  bottom: 65px;
+  left: 730px;
+  box-sizing: border-box;
+}
+.tb_fecha_de_vencimiento_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 15px;
+  width: 500px;
+  height: 30px;
+}
+.código_de_seguridad_de_la_tarjeta{
+  font-family: Glacial_Indifference_Bold;
+  font-size: 30px;
+  position: relative;
+  top: 15px;
+  left: 730px;
+}
+.tb_código_de_seguridad_de_la_tarjeta{
+  position:relative;
+  top: 35px;
+  left: 730px;
+  box-sizing: border-box;
+}
+.tb_código_de_seguridad_de_la_tarjeta input{
+  font-family: Glacial_Indifference_Regular;
+  font-size: 15px;
+  width: 500px;
+  height: 30px;
+}
+.botón_pagar{
+  font-family: Montserrat_Bold;
+  font-size: 25px;
+  color: white;
+  background-color: #515bb8;
+  border: none;
+  position: relative;
+  top:80px;
+  left: 615px;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+}
+.botón_pagar:hover{
+  background-color: #2C315D;
 }
 .rectangulo_footer{
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   background-color: #515bb8;
   width: 100%;
   height: 70px;
@@ -75,72 +193,72 @@ body{
   top: 50px;
 }
 .texto_QS{
-/*  font-family: Glacial_Indifference_Regular;
+  font-family: Glacial_Indifference_Regular;
   font-size: 20px;
   text-align: justify;
   position: relative;
-
   width: 700px;
   top: 100px;
-  left: 25%;*/
-  font-family: Glacial_Indifference_Regular;
-  font-size: 20px;
-  position: relative;
-  text-align: justify;
-
-  margin-top: 150px;
-  margin-left: 170px;
-  margin-right: 170px;
-
-
+  left: 25%;
 }
 
+/*********************RESPONSIVE********************/
+/****************    Estilos para 1024     **********/
+/****************************************************/
+@media only screen and (max-width:1024px){
+	
+}
+/****************************************************/
+/****************    Estilos para 960      **********/
+/****************************************************/
+@media only screen and (max-width:960px){
+  .menu a{
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+  }
+  .btn-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-btn{
+    margin-bottom: 20px;
+  }
+  .user-btn:last-child{
+    margin-bottom: 0;
+  }
+  
+  
+}
 
 
-/*Integrantes del equipo*/
-h2{
-  font-family: Montserrat_Bold;
-  text-align: center;
-  font-size: 40px;
-  color: black;
-  margin-top: 300px;
-  font-weight: 400;
+/****************************************************/
+/****************    Estilos para 533      **********/
+/****************************************************/
+@media only screen and (max-width:533px){
+  .menu a{
+    padding: 8px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+
 }
-.InfoInteg{
-  text-align: center;
-  font-size: 18px;
-  font-family: Glacial_Indifference_Regular;
-  margin:auto;
-  display:-webkit-inline-flex;
+
+
+/****************************************************/
+/****************    Estilos para 480      **********/
+/****************************************************/
+@media only screen and (max-width:480px){
+
 }
-.InfoInteg .foto{
-  width: 330px;
-  height: 410px;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.25s;
-  background-color: white;
-}
-.InfoInteg .foto:hover{
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.InfoInteg .foto img{
-  width: 350px;
-  height: 290px;
-}
-.InfoInteg .foto p2{
-  font-weight: 700;
-}
-hr {
-  width: 400px;
-  margin: auto;
-  margin-top: 8px;
-  height: 2px;
-  background-color: #515bb8;
-  border: 0;
-  margin-bottom: 60px;
+
+
+/****************************************************/
+/****************    Estilos para 360      **********/
+/****************************************************/
+@media only screen and (max-width:360px){
+	
 }
